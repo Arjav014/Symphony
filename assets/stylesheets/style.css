@@ -199,26 +199,20 @@
 /* Small screens (576px to 767px) */
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .banner-info h3 {
-        font-size: 4em;
+        font-size: 5em;
         line-height: 1.5em;
         padding: 10px;
         text-shadow: 0px 4px 3px #ff1515;
     }
     
     .navbar-brand {
-        font-size: 1.6em;
+        font-size: 1.8em;
         padding-left: 15px;
     }
     
     .navbar-brand .nav-icon {
         height: 50px;
         left: 102%;
-    }
-    
-    .navbar-collapse {
-        background-color: rgba(0, 0, 0, 0.8);
-        border-radius: 8px;
-        margin-top: 10px;
     }
     
     .navbar-nav {
@@ -228,21 +222,12 @@
     .column-gap-5 {
         column-gap: 0 !important;
     }
-    
-    /* Adjust L-shaped corners for mobile */
-    .navbar-nav .nav-link:hover::before,
-    .navbar-nav .nav-link.active::before,
-    .navbar-nav .nav-link:hover::after,
-    .navbar-nav .nav-link.active::after {
-        width: 8px;
-        height: 8px;
-    }
 }
 
 /* Extra small screens (less than 576px) */
 @media screen and (max-width: 575px) {
     .banner-info h3 {
-        font-size: 3em;
+        font-size: 5em;
         line-height: 1.3em;
         padding: 8px;
         text-shadow: 0px 3px 2px #ff1515;
@@ -259,28 +244,8 @@
         margin-left: -15px;
     }
     
-    .navbar-collapse {
-        background-color: rgba(0, 0, 0, 0.8);
-        border-radius: 8px;
-        margin-top: 10px;
-    }
-    
     .navbar-nav {
         padding: 10px;
-    }
-    
-    /* Simplify navigation decorations for mobile */
-    .navbar-nav .nav-link span::before,
-    .navbar-nav .nav-link span::after {
-        display: none;
-    }
-    
-    .navbar-nav .nav-link:hover::before,
-    .navbar-nav .nav-link.active::before,
-    .navbar-nav .nav-link:hover::after,
-    .navbar-nav .nav-link.active::after {
-        width: 6px;
-        height: 6px;
     }
     
     /* Adjust banner position for smaller screens */
